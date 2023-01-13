@@ -1,12 +1,10 @@
-
-
 function calculateFunc() {
-    var currentYear = new Date().getFullYear();
-    var userYear = document.getElementById("yearOfBirth").innerHTML;
-    labelToChange = document.getElementById("testlabel").innerHTML;
-    labelToChange = "Hei"
+    document.getElementById("ageLabel").innerHTML = `Your age is: ${ageCalc()}`;
+    document.getElementById("nameLabel").innerHTML = `Your name is: ${document.getElementById("name").value}`;
 }
 
-
-console.log(currentYear);
-console.log(userYear);
+function ageCalc() {
+    var currentYear = new Date().getFullYear();
+    var userYear = document.getElementById("yearOfBirth").value;
+    return (currentYear - userYear);
+}
