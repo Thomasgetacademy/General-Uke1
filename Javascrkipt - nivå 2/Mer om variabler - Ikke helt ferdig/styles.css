@@ -1,0 +1,25 @@
+#blueDiv {
+    height: 100px;
+    width: 200px;
+    border-style: dotted;
+    background-color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+#greenDiv {
+    height: 100px;
+    width: 200px;
+    border-style: dotted;
+    background-color: green;
+    text-align: center;
+    font-size: 50px;
+}
+#yellowDiv {
+    height: 100px;
+    width: 200px;
+    border-style: dotted;
+    background-color: yellow;
+    text-align: center;
+    font-size: 50px;
+}

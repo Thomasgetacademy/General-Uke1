@@ -1,0 +1,18 @@
+body {
+    padding: 0px 0px 0px 0px;
+}
+
+#top_container {
+    text-align: center;
+    margin: auto;
+    padding: 100px 0px 200px 0px;
+    background-color: #81f7e1;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#mountainImage {
+    height: 500px;
+
+}

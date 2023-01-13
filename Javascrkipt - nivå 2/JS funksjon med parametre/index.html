@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="divToChange">Hei dette er en div</div>
+    <button onclick="changeDiv1(color1, size1, 'Det var engang en to tre')"></button>
+    <button onclick="changeDiv2(color2, size2, text2)"></button>
+
+
+
+    <script>
+        var color1 = "grey";
+        var color2 = "blue";
+        var size1 = "30px"
+        var size2 = "10px"
+        // var text1 = 
+        var text2 = "Nå ble det borte"
+
+        function changeDiv1(color, size, text) {
+            document.getElementById("divToChange").style.backgroundColor = color;
+            document.getElementById("divToChange").innerHTML = text;
+            document.getElementById("divToChange").style.width = "200px";
+            document.getElementById("divToChange").style.height = "200px";
+        }
+        function changeDiv2(color, size, text) {
+            document.getElementById("divToChange").style.backgroundColor = color;
+            document.getElementById("divToChange").innerHTML = text;
+            document.getElementById("divToChange").style.width = "900px";
+            document.getElementById("divToChange").style.height = "300px";
+        }
+
+
+
+    </script>
+
+
+</body>
+
+</html>

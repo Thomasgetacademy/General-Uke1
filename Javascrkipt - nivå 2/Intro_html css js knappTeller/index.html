@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="output">0</div>
+    <button onclick="change(minus)" class="minus">◀</button>
+    <button onclick="change(plus)" class="plus">▶</button>
+
+    <script>
+        const minus = "minus";
+        const plus = "plus";
+
+        function change(operation) {
+            if (operation === minus) {
+                document.getElementById("output").innerHTML--;
+            } else {
+                document.getElementById("output").innerHTML++;
+            }
+
+        }
+    </script>
+</body>
+
+</html>
