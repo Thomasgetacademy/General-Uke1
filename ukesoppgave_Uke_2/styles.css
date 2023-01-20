@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+#container {
+    margin-top: 25%;
+    margin-bottom: 50px;
+}
+
+#chillies {
+    margin-right: 30px;
+    background-color: aqua;
+    width: 300px;
+}
+#pinkOwl {
+    margin-right: 30px;
+    background-color: rgb(183, 0, 255);
+    width: 300px;
+}
+#profile {
+    background-color: rgb(9, 255, 0);
+    width: 300px;
+}
+
+#randomImageName {
+    background-color: rgb(255, 0, 0);
+}
